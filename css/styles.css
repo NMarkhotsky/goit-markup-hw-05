@@ -132,6 +132,7 @@ body {
 .contact-link:focus,
 .nav-list .nav-link.current {
   color: var(--accent-color);
+  fill: currentColor;
 }
 
 .nav-item + .nav-item {
@@ -142,13 +143,6 @@ body {
 .icon-letter,
 .icon-phone {
   margin-right: 10px;
-}
-
-.contact-link:hover .icon-letter,
-.contact-link:focus .icon-letter,
-.contact-link:hover .icon-phone,
-.contact-link:focus .icon-phone {
-  fill: currentColor;
 }
 
 /* Герой */
